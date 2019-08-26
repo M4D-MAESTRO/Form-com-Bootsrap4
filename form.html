@@ -2,153 +2,169 @@
 <html lang="pt-BR">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
 
-    <link rel="stylesheet" href="fundo.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fundo.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+	rel="stylesheet">
 
 
 
-    <title>Exercício 01 - Formulário</title>
+<title>Exercício 01 - Formulário</title>
 </head>
 
 <body class="jumbotron fundo" style="margin-top: 0; padding-top: 2%;">
-    <div class="d-flex justify-content-center align-items-center container mb-3">
-        <form class="mx-2">
-            <div class=" d-flex justify-content-start align-items-start container bg-secondary mb-2">
-                <p class="text-light" style="font-family: 'Roboto', serif; font-size: 2rem;">Formulário
-                </p>
-            </div>
-            <div class="card text-white bg-info mb-1" style="max-width: 40rem;">
-                <div class="card-header">Dados Pessoais</div>
-                <div class="dadosPessoais px-3">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4 mt-3">Nome</label>
-                            <input type="text" class="form-control" name="nome" id="nome" placeholder="Seu nome">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Endereço</label>
-                        <input type="text" class="form-control" name="endereco" id="endereco"
-                            placeholder="Rua Aquias Cordeiro 123">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">Cidade</label>
-                            <input type="text" class="form-control" name="cidade" id="cidade"
-                                placeholder="Rio de Janeiro">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="estado">Estado</label>
-                            <select id="estado" class="form-control" name="estado">
-                                <option selected>Selecione...</option>
-                                <option>São Paulo</option>
-                                <option>Rio de Janeiro</option>
-                                <option>Espírito Santo</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card text-white bg-info mb-3" style="max-width: 40rem;">
-                <div class="card-header">Dados Profissionais</div>
-                <div class="dadosProfissionais px-3">
-                    <div class="inline-block mt-3 mb-1">Natureza do cargo </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="cargo" id="inlineRadio1" value="Gerência"
-                            checked>
-                        <label class="form-check-label" for="inlineRadio1">Gerência</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="cargo" id="inlineRadio2" value="Financeiro">
-                        <label class="form-check-label" for="inlineRadio2">Financeiro</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="cargo" id="inlineRadio3" value="Recepção">
-                        <label class="form-check-label" for="inlineRadio3">Recepção</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="cargo" id="inlineRadio4"
-                            value="Administrativo">
-                        <label class="form-check-label" for="inlineRadio4">Administrativo</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
-                            value="Jurídico">
-                        <label class="form-check-label" for="inlineRadio5">Jurídico</label>
-                    </div>
-                    <div class="inline-block mt-4 mb-1">Área de interesse </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="interesse" id="inlineCheckbox1"
-                            value="Computação">
-                        <label class="form-check-label" for="inlineCheckbox1">Computação</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="interesse" id="inlineCheckbox2"
-                            value="Biologia">
-                        <label class="form-check-label" for="inlineCheckbox2">Biologia</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="interesse" id="inlineCheckbox3"
-                            value="Meio ambiente">
-                        <label class="form-check-label" for="inlineCheckbox3">Meio ambiente</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="interesse" id="inlineCheckbox4"
-                            value="Engenharia">
-                        <label class="form-check-label" for="inlineCheckbox4">Engenharia</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="interesse" id="inlineCheckbox5"
-                            value="História">
-                        <label class="form-check-label" for="inlineCheckbox5">História</label>
-                    </div>
-                    <div class="form-group mt-4">
-                        <label for="exampleFormControlTextarea1">Mini curriculo</label>
-                        <textarea class="form-control" name="curriculo" id="curriculo" rows="3"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-end align-items-end container ml-2">
-                <button type="submit" enviar class="btn btn-info mx-1">Enviar</button>
-                <button type="reset" class="btn btn-info ">Limpar</button>
-            </div>
-        </form>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script>
+	<div
+		class="d-flex justify-content-center align-items-center container mb-3">
+		<form class="mx-2">
+			<div
+				class=" d-flex justify-content-start align-items-start container bg-secondary mb-2">
+				<p class="text-light"
+					style="font-family: 'Roboto', serif; font-size: 2rem;">Formulário
+				</p>
+			</div>
+			<div class="card text-white bg-info mb-1" style="max-width: 40rem;">
+				<div class="card-header">Dados Pessoais</div>
+				<div class="dadosPessoais px-3">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputEmail4 mt-3">Nome</label> <input type="text"
+								class="form-control" name="nome" id="nome"
+								placeholder="Seu nome">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputAddress">Endereço</label> <input type="text"
+							class="form-control" name="endereco" id="endereco"
+							placeholder="Rua Aquias Cordeiro 123">
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputCity">Cidade</label> <input type="text"
+								class="form-control" name="cidade" id="cidade"
+								placeholder="Rio de Janeiro">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="estado">Estado</label> <select id="estado"
+								class="form-control" name="estado">
+								<option selected>Selecione...</option>
+								<option>São Paulo</option>
+								<option>Rio de Janeiro</option>
+								<option>Espírito Santo</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card text-white bg-info mb-3" style="max-width: 40rem;">
+				<div class="card-header">Dados Profissionais</div>
+				<div class="dadosProfissionais px-3">
+					<div class="inline-block mt-3 mb-1">Natureza do cargo</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="cargo"
+							id="inlineRadio1" value="Gerência" checked> <label
+							class="form-check-label" for="inlineRadio1">Gerência</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="cargo"
+							id="inlineRadio2" value="Financeiro"> <label
+							class="form-check-label" for="inlineRadio2">Financeiro</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="cargo"
+							id="inlineRadio3" value="Recepção"> <label
+							class="form-check-label" for="inlineRadio3">Recepção</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="cargo"
+							id="inlineRadio4" value="Administrativo"> <label
+							class="form-check-label" for="inlineRadio4">Administrativo</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio"
+							name="inlineRadioOptions" id="inlineRadio5" value="Jurídico">
+						<label class="form-check-label" for="inlineRadio5">Jurídico</label>
+					</div>
+					<div class="inline-block mt-4 mb-1">Área de interesse</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" name="interesse"
+							id="inlineCheckbox1" value="Computação"> <label
+							class="form-check-label" for="inlineCheckbox1">Computação</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" name="interesse"
+							id="inlineCheckbox2" value="Biologia"> <label
+							class="form-check-label" for="inlineCheckbox2">Biologia</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" name="interesse"
+							id="inlineCheckbox3" value="Meio ambiente"> <label
+							class="form-check-label" for="inlineCheckbox3">Meio
+							ambiente</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" name="interesse"
+							id="inlineCheckbox4" value="Engenharia"> <label
+							class="form-check-label" for="inlineCheckbox4">Engenharia</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" name="interesse"
+							id="inlineCheckbox5" value="História"> <label
+							class="form-check-label" for="inlineCheckbox5">História</label>
+					</div>
+					<div class="form-group mt-4">
+						<label for="exampleFormControlTextarea1">Mini curriculo</label>
+						<textarea class="form-control" name="curriculo" id="curriculo"
+							rows="3"></textarea>
+					</div>
+				</div>
+			</div>
+			<div
+				class="d-flex justify-content-end align-items-end container ml-2">
+				<button type="submit" enviar class="btn btn-info mx-1">Enviar</button>
+				<button type="reset" class="btn btn-info ">Limpar</button>
+			</div>
+		</form>
+	</div>
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script>
         $('[enviar]').click((e) => {
             e.preventDefault()
             const form = $('form').serializeArray()
             const valores = form.map((value) => value.value)
-            const interesses = form.filter(value => {
+            const interesses = form.filter((value) => {
                 if (value.name === 'interesse') {
                     return value.value
                 }
-            });
+            }).map(interesse => interesse.value)
             const index = form.findIndex((value, index) => {
                 if (value.name === 'curriculo') {
                     return index
                 }
             })
+            
             const obj = {
                 nome: valores[0],
                 endereco: valores[1],
@@ -159,8 +175,10 @@
                 curriculo: valores[index]
 
             }
-            console.log(obj)
+           alert(JSON.stringify(obj))
         })
+        
+        
 
     </script>
 </body>
